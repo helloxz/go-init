@@ -4,10 +4,10 @@
 ### 内置包
 
 * github.com/gin-gonic/gin
-* get github.com/spf13/viper
-* get -u github.com/tidwall/gjson
-* get github.com/coocood/freecache
-* get github.com/go-resty/resty/v2
+* github.com/spf13/viper
+* github.com/tidwall/gjson
+* github.com/coocood/freecache
+* github.com/go-resty/resty/v2
 
 ### 使用
 
