@@ -274,6 +274,4 @@ go get github.com/go-resty/resty/v2
 go mod tidy
 
 # 输出完成信息
-echo "项目 '$PROJECT_NAME' 已成功创建！"
-echo "运行以下命令启动项目："
-echo "cd $PROJECT_NAME && go run main.go start"
+echo "go run main.go start"
