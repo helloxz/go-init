@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# 提示用户输入项目名称
-read -p "请输入项目名称: " PROJECT_NAME
+# 获取用户输入的项目名称
+PROJECT_NAME=$1
 
 if [ -z "$PROJECT_NAME" ]; then
-  echo "项目名称不能为空，请重新运行脚本并输入有效的项目名称！"
+  echo "The project name cannot be empty, please re-run the script and enter a valid project name!"
   exit 1
 fi
 
