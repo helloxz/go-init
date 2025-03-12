@@ -265,11 +265,11 @@ func CreateDir(path string) error {
 EOF
 
 # 安装依赖包
-go get github.com/gin-gonic/gin
-go get github.com/spf13/viper
+go get -u github.com/gin-gonic/gin
+go get -u github.com/spf13/viper
 go get -u github.com/tidwall/gjson
-go get github.com/coocood/freecache
-go get github.com/go-resty/resty/v2
+go get -u github.com/coocood/freecache
+go get -u github.com/go-resty/resty/v2
 
 go mod tidy
 
